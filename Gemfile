@@ -23,6 +23,7 @@ gem 'jquery-rails', '2.0.1'
 
 group :test do
   gem 'rspec-rails', '2.9.0'
+  gem 'factory_girl_rails', '1.4.0'
   gem 'capybara', '1.1.2'
   gem 'rb-inotify', '0.8.8'
   gem 'libnotify', '0.5.9'
