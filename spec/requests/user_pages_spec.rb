@@ -106,7 +106,7 @@ describe "UserPages" do
         fill_in "Name", with: "Igor Trofimov"
         fill_in "Email", with: "igortr333@gmail.com"
         fill_in "Password", with: "TitorenkO"
-        fill_in "Confirmation", with: "TitorenkO"
+        fill_in "Confirm Password", with: "TitorenkO"
       end
 
       describe "after saving the user" do
